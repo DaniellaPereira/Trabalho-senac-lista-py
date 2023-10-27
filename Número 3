@@ -1,0 +1,14 @@
+# Declare uma lista de 40 posições e atribua valor 0 para todos os elementos que possuírem valores negativos.
+
+lista = []
+
+for i in range(0,40,1) :
+    valor = eval (input(f"Informe o valor para a posição {i}: "))
+    
+    if (valor < 0): 
+        lista.append(0)
+        
+    else :
+        lista.append(valor)
+        
+print(lista)
