@@ -1,0 +1,13 @@
+# Declare uma lista de 16 posições e troque os 8 primeiros valores pelos 8 últimos e vice-e-versa. Escreva ao final o vetor obtido.
+
+lista = [] 
+for i in range (0,16,1):
+    lista.append(i)
+print (lista)
+
+for i in range (0,8):
+    ini = lista [i]
+    fim = lista [15-i]
+    lista[i] = fim
+    lista[15-i] = ini
+print (lista)
