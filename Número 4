@@ -1,0 +1,10 @@
+# Declare duas listas de 4 posições. Verifique e escreva se um é anagrama de outro. Ex: ARARA - ARARA - são anagramas
+
+x = ['E', 'S', 'T', 'U', 'D', 'O']
+y = ['D', 'U', 'E', 'T', 'O', 'S']
+
+if(sorted(x) == sorted (y)) :
+    print("São anagramas")
+    
+else:
+    print("Não são anagramas")
